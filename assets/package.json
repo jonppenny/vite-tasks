@@ -1,4 +1,14 @@
 {
+  "name": "vite-tasks",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "type": "GPL-2.0",
+      "url": "https://opensource.org/licenses/GPL-2.0"
+    }
+  ],
+  "author": "Jon Penny <jon@jonppenny.co.uk>",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "cross-env SASS_QUIET_DEPRECATIONS=1 vite build",
