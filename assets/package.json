@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env SASS_QUIET_DEPRECATIONS=1 vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.0",
+    "vite-plugin-static-copy": "^3.1.0"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3"
+  },
+  "volta": {
+    "node": "20.19.3"
+  }
+}
