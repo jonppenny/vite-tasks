@@ -9,6 +9,6 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'path/to/dist/'
+        outDir: '../path/to/dist/'
     }
 });
